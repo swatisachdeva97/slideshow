@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.351999999999999" tests="7" failures="6">
+  <testsuite name="Root Suite" timestamp="2019-07-18T18:10:23" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Image carousel test" timestamp="2019-07-18T18:10:23" tests="7" file="/Users/gopal.jayaraman/learning/hackerrank/image-carousel/test/test.js" failures="6" time="4.351999999999999">
+    <testcase name="Image carousel test should test load the page" time="0.006" classname="should test load the page">
+    </testcase>
+    <testcase name="Image carousel test carousel should show the 1st image from the list by default" time="2.021" classname="carousel should show the 1st image from the list by default">
+      <failure message="expected &apos;url(&quot;http://localhost:8000/assets/images/img-3.jpg&quot;)&apos; to include &apos;img-1.jpg&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'url("http://localhost:8000/assets/images/img-3.jpg")' to include 'img-1.jpg'
+    at Context.<anonymous> (test/test.js:60:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+    </testcase>
+    <testcase name="Image carousel test Clicking on previous button should show the previous image" time="0.075" classname="Clicking on previous button should show the previous image">
+      <failure message="expected &apos;url(&quot;http://localhost:8000/assets/images/img-3.jpg&quot;)&apos; to include &apos;img-1.jpg&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'url("http://localhost:8000/assets/images/img-3.jpg")' to include 'img-1.jpg'
+    at Context.<anonymous> (test/test.js:67:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+    </testcase>
+    <testcase name="Image carousel test Clicking on next button should show the next image" time="0.052" classname="Clicking on next button should show the next image">
+      <failure message="expected &apos;url(&quot;http://localhost:8000/assets/images/img-3.jpg&quot;)&apos; to include &apos;img-2.jpg&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'url("http://localhost:8000/assets/images/img-3.jpg")' to include 'img-2.jpg'
+    at Context.<anonymous> (test/test.js:73:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+    </testcase>
+    <testcase name="Image carousel test Clicking on next button in the last item should show the first image" time="0.11" classname="Clicking on next button in the last item should show the first image">
+      <failure message="expected &apos;url(&quot;http://localhost:8000/assets/images/img-3.jpg&quot;)&apos; to include &apos;img-1.jpg&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'url("http://localhost:8000/assets/images/img-3.jpg")' to include 'img-1.jpg'
+    at Context.<anonymous> (test/test.js:88:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+    </testcase>
+    <testcase name="Image carousel test Clicking on previous button in the first item should show the last image" time="0.038" classname="Clicking on previous button in the first item should show the last image">
+      <failure message="expected &apos;url(&quot;http://localhost:8000/assets/images/img-3.jpg&quot;)&apos; to include &apos;img-5.jpg&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'url("http://localhost:8000/assets/images/img-3.jpg")' to include 'img-5.jpg'
+    at Context.<anonymous> (test/test.js:94:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+    </testcase>
+    <testcase name="Image carousel test Clicking on any indicator icon should show the appropriate image" time="2.05" classname="Clicking on any indicator icon should show the appropriate image">
+      <failure message="expected &apos;url(&quot;http://localhost:8000/assets/images/img-3.jpg&quot;)&apos; to include &apos;img-2.jpg&apos;" type="AssertionError"><![CDATA[AssertionError: expected 'url("http://localhost:8000/assets/images/img-3.jpg")' to include 'img-2.jpg'
+    at Context.<anonymous> (test/test.js:102:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
